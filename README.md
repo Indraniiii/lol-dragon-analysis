@@ -1,2 +1,3 @@
-# League of Legends Objective (Dragon) Analysis
-Final Project for DSC 80. This project explores how neutral objectives, especially dragons, impact win probability in professional League of Legends matches in 2024.
+# Slaying Dragons: How Objective Control Predicts Pro League of Legends Wins
+
+This project explores how the dragons slain influences match outcomes in professional League of Legends games.  
