@@ -1,6 +1,6 @@
 # Slaying Dragons: How Objective Control Predicts Pro League of Legends Wins
 
-**Indrani Vairagare** 
+**Indrani Vairagare**    
 **DSC 80 Final Project**
 
 ## Introduction
