@@ -7,7 +7,9 @@
 In this project I explore how controlling neutral objectives, particularly dragons, affects a team’s chances of winning professional League of Legends matches.  The dataset comes from Oracle’s Elixir and contains detailed team- and player-level statistics from the entire 2024 season.  I focus on team-level rows to avoid double-counting players and create derived columns such as game length in minutes to make features more interpretable.
 
 ## Data Cleaning and Exploratory Data Analysis
-I filtered the raw CSV to keep only rows where `position == "team"`, converted binary indicator columns to boolean types and computed a `gamelength_min` column from the provided game length in seconds.  A histogram of game length shows that most professional games last between roughly 25 and 35 minutes, with relatively few games exceeding 45 minutes.  
+I filtered the raw CSV to keep only rows where `position == "team"`, converted binary indicator columns to boolean types and computed a `gamelength_min` column from the provided game length in seconds.  A histogram of game length shows that most professional games last between roughly 25 and 35 minutes, with relatively few games exceeding 45 minutes
+<iframe src="assets/avg_dragons_by_result.html" width="100%" height="500"></iframe>
+.  
 
 To understand the relationship between neutral objective control and winning, I calculated the mean number of dragons secured by winning and losing teams and plotted this as a bar chart.  Winners take more dragons on average than losers, supporting the idea that securing dragons contributes to victory.  I also grouped the data by league and computed the average number of dragons per game.  This aggregate table revealed that leagues such as the LCK and LPL tend to average more dragons per team than some other regions, hinting at regional differences in play style.
 
